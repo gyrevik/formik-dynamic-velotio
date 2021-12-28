@@ -1,4 +1,4 @@
-import React, { useMemo } from 'react';
+import React from 'react';
 
 const RecursiveContainer = ({config, formik}) => {
   const builder = (individualConfig) => {
