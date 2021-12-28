@@ -6,7 +6,7 @@ yup.addMethod(yup.string, "URL", function(...args) {
 
 const validator = function (message) {
     return this.test('is-string-boolean', message, function (value) {
-      if (value == "" || value == null) {
+      if (value === "" || value === null) {
         return true;
       }
 
